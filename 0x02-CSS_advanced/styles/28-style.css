@@ -503,18 +503,6 @@ a:active {
     margin-left: auto;
     margin-right: auto;
 }
-.header {
-    padding: var(--header-padding);
-}
-.header-logo {
-    position: var(--header-logo-position);
-}
-.header-logo a {
-    display: var(--header-logo-link-display);
-    position: var(--header-logo-link-position);
-    top: var(--header-logo-link-top);
-    bottom: var(--header-logo-link-left);
-}
 .footer {
     padding: var(--footer-padding);
 }
@@ -604,4 +592,16 @@ ul.row {
     display: block;
     padding-top: 1rem;
     color: var(--color-primary);
+}
+.header {
+    padding: var(--header-padding);
+}
+.header-logo {
+    position: var(--header-logo-position);
+}
+.header-logo a {
+    display: var(--header-logo-link-display);
+    position: var(--header-logo-link-position);
+    top: var(--header-logo-link-top);
+    bottom: var(--header-logo-link-left);
 }
